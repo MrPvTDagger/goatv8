@@ -47,4 +47,3 @@ Shift + Spacebar: Jump.<br/>
         ]
     ];
 	
-	//Dagger is a poon

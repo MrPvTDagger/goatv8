@@ -122,7 +122,6 @@ OnLoadMission = "We are the greatest of all time.";
 
 enableDebugConsole = 1;
 
-#include "config\Config_SpyGlass.hpp"
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "config\Config_Master.hpp"
@@ -157,15 +156,6 @@ class CfgDebriefing {
         title = "$STR_Blacklisted_Title";
         subtitle = "$STR_Blacklisted_SubTitle";
         description = "$STR_Blacklisted_Descript";
-        pictureBackground = "";
-        picture = "";
-        pictureColor[] = {0,0.3,0.6,1};
-    };
-
-    class SpyGlass {
-        title = "$STR_SpyDetect_Title";
-        subTitle = "$STR_SpyDetect_SubTitle";
-        description = "$STR_SpyDetect_Descript";
         pictureBackground = "";
         picture = "";
         pictureColor[] = {0,0.3,0.6,1};

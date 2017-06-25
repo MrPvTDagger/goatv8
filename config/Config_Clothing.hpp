@@ -252,7 +252,7 @@ class Clothing {
 		{ "U_C_Man_casual_6_F", "", 50, "" },
 		{ "U_B_CTRG_Soldier_urb_1_F", "", 50, "" },
 		{ "U_B_CTRG_Soldier_urb_2_F", "", 50, "" },
-		{ "U_B_CTRG_Soldier_urb_3_F", "", 50, "" },
+		{ "U_B_CTRG_Soldier_urb_3_F", "", 50, "" }
 
         };
         headgear[] = {

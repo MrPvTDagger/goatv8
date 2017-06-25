@@ -500,7 +500,12 @@ class WeaponShops {
 			{ "SMA_30Rnd_68x43_BT_IR", "", 22, 11, "" },
 			{ "SMA_30Rnd_68x43_sub", "", 12, 6, "" },
 			{ "SMA_30Rnd_68x43_sub_Tracer", "", 17, 8, "" },
-			{ "SMA_30Rnd_68x43_sub_IR", "", 22, 11, "" }
+			{ "SMA_30Rnd_68x43_sub_IR", "", 22, 11, "" },
+			{ "rhs_30Rnd_762x39mm", "", 10, 5, "" },
+			{ "rhssaf_30rnd_556x45_EPR_G36", "", 10, 5, "" },
+			{ "rhssaf_30rnd_556x45_Tracers_G36", "", 10, 5, "" },
+			{ "rhs_mag_30Rnd_556x45_Mk318_Stanag", "", 10, 5, "" },
+			{ "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "", 10, 5, "" },
         };
         accs[] = {
 			
@@ -531,6 +536,15 @@ class WeaponShops {
 			{ "11Rnd_45ACP_Mag", "", 4, 2, "" },
 			{ "6Rnd_45ACP_Cylinder", "", 4, 2, "" },
 			{ "10Rnd_9x21_Mag", "", 3, 1, "" },
+			{ "rhsusf_mag_7x45acp_MHP", "", 3, 1, "" },
+			{ "rhsusf_mag_17Rnd_9x19_JHP", "", 3, 1, "" },
+			{ "rhsusf_mag_17Rnd_9x19_FMJ", "", 3, 1, "" },
+			{ "rhsusf_mag_15Rnd_9x19_JHP", "", 3, 1, "" },
+			{ "rhsusf_mag_15Rnd_9x19_FMJ", "", 3, 1, "" },
+			{ "rhs_mag_M441_HE", "", 3, 1, "" },
+			{ "rhs_mag_M433_HEDP", "", 3, 1, "" },
+			{ "rhs_mag_M397_HET", "", 3, 1, "" },
+			{ "rhs_mag_m576", "", 3, 1, "" }
         };
         accs[] = {
             { "muzzle_snds_acp", "", 300, 150, "" },
@@ -556,7 +570,7 @@ class WeaponShops {
 			{ "30Rnd_45ACP_Mag_SMG_01", "", 4, 2, "" },
 			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "", 9, 4, "" },
 			{ "30Rnd_45ACP_Mag_SMG_01_Tracer_Red", "", 9, 4, "" },
-			{ "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow", "", 9, 4, "" },
+			{ "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow", "", 9, 4, "" }
         };
         accs[] = {		
 			{ "muzzle_snds_acp", "", 300, 150, "" },
@@ -601,6 +615,8 @@ class WeaponShops {
 			{ "200Rnd_556x45_Box_F", "", 10, 5, "" },
 			{ "200Rnd_556x45_Box_Red_F", "", 10, 5, "" },
 			{ "200Rnd_556x45_Box_Tracer_F", "", 15, 8, "" },
+			{ "rhsusf_100Rnd_762x51", "", 15, 8, "" },
+			{ "rhs_200rnd_556x45_M_SAW", "", 15, 8, "" },
 			{ "200Rnd_556x45_Box_Tracer_Red_F", "", 15, 8, "" }
         };
         accs[] = {
@@ -655,7 +671,11 @@ class WeaponShops {
 			{ "10Rnd_338_Mag", "", 12, 6, "" },
 			{ "10Rnd_127x54_Mag", "", 18, 9, "" },
 			{ "10Rnd_93x64_DMR_05_Mag", "", 15, 7, "" },
-			{ "20Rnd_650x39_Cased_Mag_F", "", 12, 6, "" }
+			{ "20Rnd_650x39_Cased_Mag_F", "", 12, 6, "" },
+			{ "rhsusf_5Rnd_300winmag_xm2010", "", 12, 6, "" },
+			{ "rhsusf_10Rnd_762x51_m118_special_Mag", "", 12, 6, "" },
+			{ "rhsusf_10Rnd_762x51_m62_Mag", "", 12, 6, "" },
+			{ "rhs_10Rnd_762x54mmR_7N1", "", 12, 6, "" }
         };
         accs[] = {
 			
@@ -696,6 +716,13 @@ class WeaponShops {
             { "RPG32_HE_F", "", 500, 250, "" },
 			{ "Titan_AA", "", 5000, 2500, "" },
 			{ "Titan_AT", "", 5000, 2500, "" },
+			{ "rhs_mag_9k38_rocket", "", 5000, 2500, "" },
+			{ "rhs_fgm148_magazine_AT", "", 5000, 2500, "" },
+			{ "rhs_fim92_mag", "", 5000, 2500, "" },
+			{ "rhs_mag_smaw_HEAA", "", 5000, 2500, "" },
+			{ "rhs_mag_smaw_HEDP", "", 5000, 2500, "" },
+			{ "rhs_rpg7_OG7V_mag", "", 5000, 2500, "" },
+			{ "rhs_rpg7_PG7V_mag", "", 5000, 2500, "" },
 			{ "Titan_AP", "", 5000, 2500, "" }
         };
         accs[] = {

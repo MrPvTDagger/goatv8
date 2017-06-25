@@ -122,7 +122,7 @@ OnLoadMission = "We are the greatest of all time.";
 
 enableDebugConsole = 1;
 
-#include "CfgRemoteExec.hpp"
+// #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "config\Config_Master.hpp"
 

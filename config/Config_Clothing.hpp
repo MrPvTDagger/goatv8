@@ -430,7 +430,8 @@ class Clothing {
 		{ "H_MilCap_ghex_F", "", 20, "" },
 		{ "H_Booniehat_tna_F", "", 20, "" },
 		{ "H_Beret_gen_F", "", 20, "" },
-		{ "H_MilCap_gen_F", "", 20, "" }
+		{ "H_MilCap_gen_F", "", 20, "" },
+		{ "rhs_scarf", "", 20, "" }
         };
         goggles[] = {
         { "NONE", $STR_C_Remove_goggles, 0, "" },
@@ -474,7 +475,14 @@ class Clothing {
 		{ "H_Shemag_olive", "", 10, "" },
 		{ "H_Shemag_olive_hs", "", 10, "" },
 		{ "H_ShemagOpen_khk", "", 10, "" },
-		{ "H_ShemagOpen_tan", "", 10, "" }
+		{ "H_ShemagOpen_tan", "", 10, "" },
+		{ "rhs_googles_black", "", 10, "" },
+		{ "rhs_googles_orange", "", 10, "" },
+		{ "rhs_googles_yellow", "", 10, "" },
+		{ "rhs_googles_clear", "", 10, "" },
+		{ "rhs_ess_black", "", 10, "" },
+		{ "rhs_balaclava", "", 10, "" },
+		{ "rhs_balaclava1_olive", "", 10, "" }
 		};
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },

@@ -59,7 +59,38 @@ class CarShops {
 			{ "B_MBT_01_TUSK_F", "" },
 			{ "B_MBT_01_cannon_F", "" },
 			{ "I_MBT_03_cannon_F", "" },
-			{ "O_MBT_02_cannon_F", "" }
+			{ "O_MBT_02_cannon_F", "" }, // START OF RHS GROUND VEHICLES
+			{ "rhs_cdf_b_t72bb_tv", "" },
+			{ " rhsgref_cdf_b_t80bv_tv", "" },
+			{ "rhsusf_m1a1aimd_usarmy", "" },
+			{ "rhsusf_m1a1fep_d", "" },
+			{ "rhsusf_m1a1hc_wd", "" },
+			{ "rhsusf_m1a1fep_od", "" },
+			{ "rhs_t90a_tv", "" },
+			{ "rhsusf_m1025_w_s_m2", "" },
+			{ "rhsusf_m1025_w_s_mk19", "" },
+			{ "rhsusf_m1025_w_s", "" },
+			{ "rhsusf_m1025_d_s", "" },
+			{ "rhsusf_m1025_d_s_mk19", "" },
+			{ "rhsusf_m1025_d_s_m2", "" },
+			{ "rhsgref_cdf_b_reg_BM2", "" },
+			{ "rhsusf_m977a4_repair_bkit_m2_usarmy_d", "" },
+			{ "rhsusf_m977a4_ammo_bkit_m2_usarmy_d", "" },
+			{ "rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy", "" },
+			{ "rhsusf_M1078A1P2_B_M2_wd_fmtv_usarmy", "" },
+			{ "rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_wd", "" },
+			{ "rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd", "" },
+			{ "rhsusf_rg33_m2_usmc_d", "" },
+			{ "rhsusf_rg33_usmc_d", "" },
+			{ "rhsusf_M1232_usarmy_d", "" },
+			{ "rhsusf_M1232_MK19_usarmy_d", "" },
+			{ "rhsusf_M1232_M2_usarmy_d", "" },
+			{ "rhsusf_M1232_M2_usarmy_wd", "" },
+			{ "rhsusf_M1232_MK19_usarmy_wd", "" },
+			{ "rhsusf_M1232_usarmy_wd", "" },
+			{ "rhsusf_rg33_usmc_wd", "" },
+			{ "rhsusf_rg33_m2_usmc_wd", "" },
+			{ "rhs_9k79_B", "" }
 
         };
     };
@@ -92,7 +123,14 @@ class CarShops {
 			{ "B_UGV_01_rcws_F", "" },
 			{ "B_UAV_02_dynamicLoadout_F", "" },
 			{ "O_T_UAV_04_CAS_F", "" },
-			{ "B_T_UAV_03_F", "" },
+			{ "B_T_UAV_03_F", "" }, // START OF RHS AIR VEHICLES
+			{ "rhsusf_CHE53E_USMC", "" }, 
+			{ "RHS_AH1Z", "" }, 
+			{ "RHS_AH64D", "" }, 
+			{ "RHS_UH60M_MEV_d", "" }, 
+			{ "rhsgref_cdf_b_reg_Mi8amt", "" }, 
+			{ "rhsusf_f22", "" }, 
+			{ "rhsgref_cdf_b_su25", "" }
         };
     };
 
@@ -107,6 +145,7 @@ class CarShops {
 			{ "C_Boat_Civil_01_F", "" },
 			{ "C_Boat_Transport_02_F", "" },
 			{ "C_Scooter_Transport_01_F", "" },
+			{ "rhsusf_mkvsoc", "" }
 			
         };
     };
@@ -295,21 +334,21 @@ class LifeCfgVehicles {
 		class B_MRAP_01_F /* M-ATV */{
         vItemSpace = 100;
         conditions = "";
-        price = 470000;
+        price = 385000;
         textures[] = {};
         
     };
 		class B_MRAP_01_hmg_F /* M-ATV HMG */{
         vItemSpace = 100;
         conditions = "";
-        price = 480000;
+        price = 400000;
         textures[] = {};
         
     };
 		class B_MRAP_01_gmg_F /* M-ATV GMG */{
         vItemSpace = 100;
         conditions = "";
-        price = 485000;
+        price = 415000;
         textures[] = {};
         
     };
@@ -648,5 +687,279 @@ class LifeCfgVehicles {
         price = 4500000;
         textures[] = {};
         
+    }; // RHS PRICES FROM HERE
+		class rhsusf_CHE53E_USMC /* SUPER STALLION! */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 25000000;
+        textures[] = {};
+        
     };
+		class RHS_AH1Z /* AH-1Z */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 31000000;
+        textures[] = {};
+        
+    };
+		class RHS_AH64D /* APACHE */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 35000000;
+        textures[] = {};
+        
+    };
+		class RHS_UH60M_MEV_ /* UH60 MEDEVAC */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 10000000;
+        textures[] = {};
+        
+    };
+		class rhsgref_cdf_b_reg_Mi8amt /* MI8 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 12000000;
+        textures[] = {};
+        
+    };
+		class rhsusf_f22 /* F22 RAPTOR */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 150000000;
+        textures[] = {};
+        
+    };
+		class rhsgref_cdf_b_su25 /* SU25 FROGFOOT */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 25000000;
+        textures[] = {};
+        
+    }; // END OF RHS AIR VEHICLES
+		class rhs_cdf_b_t72bb_tv /* T-72V 1985 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 1500000;
+        textures[] = {};
+        
+    };
+		class rhsgref_cdf_b_t80bv_tv /* T-80 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 2200000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m1a1aimd_usarmy /* M1A1 SA */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 6000000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m1a1fep_d /* M1A1 FEP */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 6000000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m1a1hc_wd /* M1A1 WOODLAND */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 6000000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m1a1fep_od /* M1A1 TAN */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 6000000;
+        textures[] = {};
+        
+    };
+		class rhs_t90a_tv /* T-90 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 2500000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m1025_w_s_m2 /* HUMVEE M2 SNORKEL */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 250000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m1025_w_s_mk19 /* HUMVEE MK19 SNORKEL */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 255000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m1025_w_s /* HUMVEE UNARMED SNORKEL  */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 240000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m1025_d_s /* HUMVEE UNARMED SNORKEL 2 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 240000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m1025_d_s_mk19 /* HUMVEE MK19 SNORKEL 2 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 255000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m1025_d_s_m /* HUMVEE M2 SNORKEL 2 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 250000;
+        textures[] = {};
+        
+    };
+		class rhsgref_cdf_b_reg_BM21 /* BADASS ROCKET TRUCK (BM21 DUDE, ITS RIGHT THERE) */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 650000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m977a4_repair_bkit_m2_usarmy_d /* REPAIR TRUCK M2 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 450000;
+        textures[] = {};
+        
+    };
+		class rhsusf_m977a4_ammo_bkit_m2_usarmy_d /* AMMO TRUCK M2 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 450000;
+        textures[] = {};
+        
+    };
+		class rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy /* TRANSPORT TRUCK M2 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 400000;
+        textures[] = {};
+        
+    };
+		class rhsusf_M1078A1P2_B_M2_wd_fmtv_usarmy /* TRANSPORT TRUCK M2 WOODLAND */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 400000;
+        textures[] = {};
+        
+    };
+		class rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_wd /* REPAIR TRUCK M2 WOODLAND */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 450000;
+        textures[] = {};
+        
+    };
+		class rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd /* AMMO TRUCK M2 WOODLAND */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 450000;
+        textures[] = {};
+        
+    };
+		class rhsusf_rg33_m2_usmc_d /* MRAP M2 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 650000;
+        textures[] = {};
+        
+    };
+		class rhsusf_rg33_usmc_d /* MRAP UNARMED */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 630000;
+        textures[] = {};
+        
+    };
+		class rhsusf_M1232_usarmy_d /* MRAP UNARMED */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 650000;
+        textures[] = {};
+        
+    };
+		class rhsusf_M1232_MK19_usarmy_d /* MRAP MK19 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 670000;
+        textures[] = {};
+        
+    };
+		class rhsusf_M1232_M2_usarmy_d /* MRAP M2 */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 665000;
+        textures[] = {};
+        
+    };
+		class rhsusf_M1232_M2_usarmy_wd /* MRAP M2 WOODLAND */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 650000;
+        textures[] = {};
+        
+    };
+		class rhsusf_M1232_MK19_usarmy_wd /* MRAP MK19 WOODLAND */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 670000;
+        textures[] = {};
+        
+    };
+		class rhsusf_M1232_usarmy_wd /* MRAP UNARMED WOODLAND */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 665000;
+        textures[] = {};
+        
+    };
+		class rhsusf_rg33_usmc_wd /* MRAP UNARMED WOODLAND */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 630000;
+        textures[] = {};
+        
+    };
+		class rhsusf_rg33_m2_usmc_wd /* MRAP M2 WOODLAND */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 650000;
+        textures[] = {};
+        
+    };
+		class rhs_9k79_B /* HOLY FUCKING SHIT IT'S A FUCKING NUKE */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 99000000000;
+        textures[] = {};
+        
+    };
+		class rhsusf_mkvsoc /* BOAT */{
+        vItemSpace = 100;
+        conditions = "";
+        price = 3700000;
+        textures[] = {};
+        
+    };
+	
 };

@@ -7,12 +7,13 @@ class WeaponShops {
         items[] = {
             { "Binocular", "", 2, 1, "" },
 			{ "Rangefinder", "", 2, 1, "" },
-            { "ItemGPS", "", 2, 1, "" },
-            { "NVGoggles", "", 100, 50, "" },
-            { "rhsusaf_ANPVS_14", "", 100, 50, "" },
-            { "rhsusaf_ANPVS_15", "", 100, 50, "" },
-            { "rhs_1PN138", "", 100, 50, "" },
-            { "rhsusf_rhino", "", 100, 50, "" },
+			{ "Laserdesignator", "", 2, 1, "" },
+			{ "O_NVGoggles_hex_F", "", 5000, 2500, "" },
+			{ "O_NVGoggles_urb_F", "", 5000, 2500, "" },
+			{ "O_NVGoggles_ghex_F", "", 5000, 2500, "" },
+            { "rhsusaf_ANPVS_14", "", 3000, 1500, "" },
+            { "rhsusaf_ANPVS_15", "", 6000, 3000, "" },
+            { "rhs_1PN138", "", 800, 400, "" },
 			{ "B_UavTerminal", "", 2, 1, "" },
 			{ "TF_anprc152", "", 2, 1, "" }
         
@@ -75,27 +76,27 @@ class WeaponShops {
 			{ "optic_DMS", "", 3050, 1525, "" },
 			{ "optic_NVS", "", 9500, 4750, "" },
 			{ "optic_SOS", "", 1250, 625, "" },
-			{ "rhsusf_acc_M8541", "", 1250, 625, "" },
-			{ "rhsusf_acc_M8541_low", "", 1250, 625, "" },
+			{ "rhsusf_acc_M8541", "", 2500, 1250, "" },
+			{ "rhsusf_acc_M8541_low", "", 2000, 1000, "" },
 			{ "rhsusf_acc_M8541_low_d", "", 1250, 625, "" },
 			{ "rhsusf_acc_M8541_low_wd", "", 1250, 625, "" },
 			{ "rhsusf_acc_premier", "", 1250, 625, "" },
 			{ "rhsusf_acc_premier_low", "", 1250, 625, "" },
-			{ "rhsusf_acc_LEUPOLDMK4", "", 1250, 625, "" },
-			{ "rhsusf_acc_LEUPOLDMK4_2", "", 1250, 625, "" },
-			{ "rhsusf_acc_LEUPOLDMK4_2_d", "", 1250, 625, "" },
-			{ "rhsusf_acc_SpecterDR", "", 1250, 625, "" },
-			{ "rhsusf_acc_SpecterDR_OD", "", 1250, 625, "" },
-			{ "rhsusf_acc_SpecterDR_d", "", 1250, 625, "" },
-			{ "rhsusf_acc_SpecterDR_a", "", 1250, 625, "" },
-			{ "rhs_acc_rakusPM", "", 1250, 625, "" },
-			{ "rhsusf_acc_ELCAN", "", 1250, 625, "" },
-			{ "rhs_acc_dh520x56", "", 1250, 625, "" },
-			{ "rhsusf_acc_M2A1", "", 1250, 625, "" },
-			{ "rhsusf_acc_ACOG_MDO", "", 1250, 625, "" },
-			{ "rhsusf_acc_ACOD_RMR", "", 1250, 625, "" },
-			{ "rhsusf_acc_ACOD_d", "", 1250, 625, "" },
-			{ "rhsusf_acc_ACOD_wd", "", 1250, 625, "" }
+			{ "rhsusf_acc_LEUPOLDMK4", "", 1200, 600, "" },
+			{ "rhsusf_acc_LEUPOLDMK4_2", "", 1500, 750, "" },
+			{ "rhsusf_acc_LEUPOLDMK4_2_d", "", 1500, 750, "" },
+			{ "rhsusf_acc_SpecterDR", "", 2000, 1000, "" },
+			{ "rhsusf_acc_SpecterDR_OD", "", 2000, 1000, "" },
+			{ "rhsusf_acc_SpecterDR_d", "", 2000, 1000, "" },
+			{ "rhsusf_acc_SpecterDR_a", "", 2000, 1000, "" },
+			{ "rhs_acc_rakusPM", "", 600, 300, "" },
+			{ "rhsusf_acc_ELCAN", "", 1300, 650, "" },
+			{ "rhs_acc_dh520x56", "", 2000, 1000, "" },
+			{ "rhsusf_acc_M2A1", "", 500, 250, "" },
+			{ "rhsusf_acc_ACOG_MDO", "", 1200, 600, "" },
+			{ "rhsusf_acc_ACOG_RMR", "", 1500, 750, "" },
+			{ "rhsusf_acc_ACOG_d", "", 1500, 750, "" },
+			{ "rhsusf_acc_ACOG_wd", "", 1500, 750, "" }
         
 		};
 	};
@@ -422,15 +423,15 @@ class WeaponShops {
 			{ "arifle_CTAR_GL_hex_F", "", 6000, 3000, "" },
 			{ "arifle_CTAR_GL_ghex_F", "", 6000, 3000, "" },
 			{ "arifle_AKS_F", "", 2000, 1000, "" },	
-			{ "rhs_weap_ak103_zenitco01_b33", "", 2000, 1000, "" },	
-			{ "rhs_weap_ak103_2_npz", "", 2000, 1000, "" },	
-			{ "rhs_weap_ak103_gp25_npz", "", 2000, 1000, "" },	
-			{ "rhs_weap_g36c", "", 2000, 1000, "" },	
-			{ "rhs_weap_g36kv", "", 2000, 1000, "" },	
-			{ "rhs_weap_g36kv_ag36", "", 2000, 1000, "" },	
-			{ "rhs_weap_m16a4", "", 2000, 1000, "" },	
-			{ "rhs_weap_m16a4_carryhandle", "", 2000, 1000, "" },	
-			{ "rhs_weap_m16a4_carryhandle_m203", "", 2000, 1000, "" }
+			{ "rhs_weap_ak103_zenitco01_b33", "", 7500, 3850, "" },	
+			{ "rhs_weap_ak103_2_npz", "", 7000, 3500, "" },	
+			{ "rhs_weap_ak103_gp25_npz", "", 7500, 3850, "" },	
+			{ "rhs_weap_g36c", "", 7000, 3500, "" },	
+			{ "rhs_weap_g36kv", "", 7200, 3600, "" },	
+			{ "rhs_weap_g36kv_ag36", "", 7700, 3650, "" },	
+			{ "rhs_weap_m16a4", "", 6500, 3250, "" },	
+			{ "rhs_weap_m16a4_carryhandle", "", 6500, 3250, "" },	
+			{ "rhs_weap_m16a4_carryhandle_m203", "", 7000, 3500, "" }
 		   };
         mags[] = {
             { "30Rnd_65x39_caseless_green", "", 12, 6, "" },
@@ -521,14 +522,14 @@ class WeaponShops {
 			{ "hgun_Pistol_heavy_02_F", "", 2000, 1000, "" },
 			{ "hgun_Rook40_F", "", 1700, 850, "" },
 			{ "hgun_Pistol_01_F", "", 1500, 750, "" },
-			{ "rhs_weap_g17g4", "", 1500, 750, "" },
-			{ "rhs_weap_m1911a1", "", 1500, 750, "" },
-			{ "rhs_weap_m320", "", 1500, 750, "" },
-			{ "rhs_weap_m9", "", 1500, 750, "" },
-			{ "rhs_weap_rsp30_white", "", 1500, 750, "" },
-			{ "rhs_weap_rsp30_green", "", 1500, 750, "" },
-			{ "rhs_weap_rsp30_red", "", 1500, 750, "" },
-			{ "rhs_weap_tr8", "", 1500, 750, "" }
+			{ "rhs_weap_g17g4", "", 1000, 500, "" },
+			{ "rhs_weap_m1911a1", "", 2000, 1000, "" },
+			{ "rhs_weap_m320", "", 3500, 1750, "" },
+			{ "rhs_weap_m9", "", 1000, 500, "" },
+			{ "rhs_weap_rsp30_white", "", 50, 25, "" },
+			{ "rhs_weap_rsp30_green", "", 50, 25, "" },
+			{ "rhs_weap_rsp30_red", "", 50, 25, "" },
+			{ "rhs_weap_tr8", "", 500, 250, "" }
 		};
         mags[] = {
             { "9Rnd_45ACP_Mag", "", 4, 2, "" },
@@ -593,10 +594,10 @@ class WeaponShops {
 	        { "MMG_02_camo_F", "", 12000, 6000, "" },
 	        { "MMG_02_black_F", "", 12000, 6000, "" },
 	        { "MMG_02_sand_F", "", 12000, 6000, "" },
-			{ "rhs_weap_m240b", "", 2000, 1000, "" },	
-			{ "rhs_weap_m240b_CAP", "", 2000, 1000, "" },	
-			{ "rhs_weap_m249_pip_L", "", 2000, 1000, "" },	
-			{ "rhs_weap_m249_pip_S", "", 2000, 1000, "" }			
+			{ "rhs_weap_m240b", "", 10000, 5000, "" },	
+			{ "rhs_weap_m240b_CAP", "", 10000, 5000, "" },	
+			{ "rhs_weap_m249_pip_L", "", 11500, 5750, "" },	
+			{ "rhs_weap_m249_pip_S", "", 11500, 5750, "" }			
 		};
 	mags[] = {
             { "200Rnd_65x39_cased_Box", "", 12, 6, "" },
@@ -651,15 +652,15 @@ class WeaponShops {
 	        { "arifle_SPAR_03_blk_F", "", 9500, 4750, "" },
 	        { "arifle_SPAR_03_khk_F", "", 9500, 4750, "" },
 	        { "arifle_SPAR_03_snd_F", "", 9500, 4750, "" },
-			{ "rhs_weap_XM2010", "", 2000, 1000, "" },	
-			{ "rhs_weap_XM2010_wd", "", 2000, 1000, "" },	
-			{ "rhs_weap_XM2010_d", "", 2000, 1000, "" },	
-			{ "rhs_weap_XM2010_sa", "", 2000, 1000, "" },	
-			{ "rhs_weap_m40a5", "", 2000, 1000, "" },	
-			{ "rhs_weap_m40a5_d", "", 2000, 1000, "" },	
-			{ "rhs_weap_m40a5_wd", "", 2000, 1000, "" },	
-			{ "rhs_weap_svdp_npz", "", 2000, 1000, "" },	
-			{ "rhs_weap_svdp_wd_npz", "", 2000, 1000, "" }
+			{ "rhs_weap_XM2010", "", 11500, 5750, "" },	
+			{ "rhs_weap_XM2010_wd", "", 11500, 5750, "" },	
+			{ "rhs_weap_XM2010_d", "", 11500, 5750, "" },	
+			{ "rhs_weap_XM2010_sa", "", 11500, 5750, "" },	
+			{ "rhs_weap_m40a5", "", 6500, 3250, "" },	
+			{ "rhs_weap_m40a5_d", "", 6500, 3250, "" },	
+			{ "rhs_weap_m40a5_wd", "", 6500, 3250, "" },	
+			{ "rhs_weap_svdp_npz", "", 4500, 2250, "" },	
+			{ "rhs_weap_svdp_wd_npz", "", 4500, 2250, "" }
 	
 		};
         mags[] = {
@@ -673,9 +674,9 @@ class WeaponShops {
 			{ "10Rnd_93x64_DMR_05_Mag", "", 15, 7, "" },
 			{ "20Rnd_650x39_Cased_Mag_F", "", 12, 6, "" },
 			{ "rhsusf_5Rnd_300winmag_xm2010", "", 12, 6, "" },
-			{ "rhsusf_10Rnd_762x51_m118_special_Mag", "", 12, 6, "" },
-			{ "rhsusf_10Rnd_762x51_m62_Mag", "", 12, 6, "" },
-			{ "rhs_10Rnd_762x54mmR_7N1", "", 12, 6, "" }
+			{ "rhsusf_10Rnd_762x51_m118_special_Mag", "", 15, 7, "" },
+			{ "rhsusf_10Rnd_762x51_m62_Mag", "", 15, 7, "" },
+			{ "rhs_10Rnd_762x54mmR_7N1", "", 15, 7, "" }
         };
         accs[] = {
 			
@@ -686,8 +687,8 @@ class WeaponShops {
         side = "cop";
         conditions = "";
         items[] = {	
-			{ "launch_RPG7_F", "", 1000, 500, "" }, // RPG-7
-			{ "launch_RPG32_F", "", 3500, 1750, "" }, // RPG - 42 ALAMUT
+			{ "launch_RPG7_F", "", 2500, 1250, "" }, // RPG-7
+			{ "launch_RPG32_F", "", 4000, 2000, "" }, // RPG - 42 ALAMUT
 			{ "launch_B_Titan_F", "", 250000, 125000, "" }, // TITAN MPRL (SAND)
 			{ "launch_I_Titan_F", "", 250000, 125000, "" }, // TITAN MPRL (DIGITAL)
 			{ "launch_O_Titan_F", "", 250000, 125000, "" }, // TITAN MPRL (HEX)
@@ -696,18 +697,15 @@ class WeaponShops {
 	        { "launch_I_Titan_short_F", "", 325000, 162500, "" }, // TITAN COMPACT [DIGITAL]
 	        { "launch_O_Titan_short_F", "", 325000, 162500, "" }, // TITAN COMPACT [HEX]
 	        { "launch_Titan_short_F", "", 325000, 162500, "" }, // TITAN COMPACT
-	        { "rhs_weap_igla", "", 325000, 162500, "" },
-	        { "rhs_weap_fgm148", "", 325000, 162500, "" },
-	        { "rhs_weap_fim92", "", 325000, 162500, "" },
-	        { "rhs_weap_m136", "", 325000, 162500, "" },
-	        { "rhs_weap_m136_hedp", "", 325000, 162500, "" },
-	        { "rhs_weap_m136_hp", "", 325000, 162500, "" },
-	        { "rhs_weap_m7a27", "", 325000, 162500, "" },
-	        { "rhs_weap_smaw", "", 325000, 162500, "" },
-	        { "rhs_weap_smaw_green", "", 325000, 162500, "" },
-	        { "rhs_weap_rpg26", "", 325000, 162500, "" },
-	        { "rhs_weap_rpg7", "", 325000, 162500, "" },
-	        { "rhs_weap_rshg2", "", 325000, 162500, "" }
+	        { "rhs_weap_igla", "", 45000, 22500, "" },
+	        { "rhs_weap_fgm148", "", 75000, 37500, "" },
+	        { "rhs_weap_fim92", "", 50000, 25000, "" },
+	        { "rhs_weap_m136", "", 7500, , 3750, "" },
+	        { "rhs_weap_m136_hedp", "", 7500, 3750, "" },
+	        { "rhs_weap_m136_hp", "", 7500, 3750, "" },
+	        { "rhs_weap_smaw", "", 13000, , 6500, "" },
+	        { "rhs_weap_smaw_green", "", 13000, 6500, "" },
+	        { "rhs_weap_rpg26", "", 3200, 1600, "" }
 		
 		};
         mags[] = {	
@@ -721,8 +719,6 @@ class WeaponShops {
 			{ "rhs_fim92_mag", "", 5000, 2500, "" },
 			{ "rhs_mag_smaw_HEAA", "", 5000, 2500, "" },
 			{ "rhs_mag_smaw_HEDP", "", 5000, 2500, "" },
-			{ "rhs_rpg7_OG7V_mag", "", 5000, 2500, "" },
-			{ "rhs_rpg7_PG7V_mag", "", 5000, 2500, "" },
 			{ "Titan_AP", "", 5000, 2500, "" }
         };
         accs[] = {

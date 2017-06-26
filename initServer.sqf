@@ -8,20 +8,6 @@
 if (!(_this select 0)) exitWith {}; //Not server
 /*
 [] call compile preprocessFileLineNumbers "\life_server\init.sqf";	
-		call compilefinal preprocessFileLineNumbers "oo_pdw.sqf";
-
-		 _pdw = ["new", "inidbi"] call OO_PDW;
-
-		hint "Delete all objects";
-		{
-			if!(_x isKindOf "MAN") then {
-			deletevehicle _x;
-			};
-		}foreach (allMissionObjects "All");
-		sleep 2;
-		
-		_objects = "loadObjects" call _pdw;
-		hint format ["Restore all objects %1", _objects];
 		
 		call compilefinal preprocessFileLineNumbers "oo_pdw.sqf";
          disableUserInput true;

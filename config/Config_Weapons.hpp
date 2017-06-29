@@ -506,7 +506,7 @@ class WeaponShops {
 			{ "rhssaf_30rnd_556x45_EPR_G36", "", 10, 5, "" },
 			{ "rhssaf_30rnd_556x45_Tracers_G36", "", 10, 5, "" },
 			{ "rhs_mag_30Rnd_556x45_Mk318_Stanag", "", 10, 5, "" },
-			{ "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "", 10, 5, "" },
+			{ "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "", 10, 5, "" }
         };
         accs[] = {
 			

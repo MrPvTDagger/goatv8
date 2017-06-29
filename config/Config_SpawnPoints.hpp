@@ -35,10 +35,17 @@ class CfgSpawnPoints {
                 spawnMarker = "cop_spawn_4";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
-            }; */
+            }; 
 	    class Titan {
                 displayName = "Camp Titan";
                 spawnMarker = "cop_spawn_5";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "";
+            };
+			*/
+		class Titan {
+                displayName = "Camp Kratos";
+                spawnMarker = "cop_spawn_6";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };

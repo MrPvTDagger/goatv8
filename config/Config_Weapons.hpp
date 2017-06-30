@@ -201,7 +201,8 @@ class WeaponShops {
 			{ "SMA_AAC_762_sdn6_w", "", 500, 250, "" },
 			{ "SMA_AAC_762_sdn6_d", "", 500, 250, "" },
 			{ "SMA_FLASHHIDER1", "", 400, 200, "" },
-			{ "SMA_FLASHHIDER2", "", 400, 200, "" }
+			{ "SMA_FLASHHIDER2", "", 400, 200, "" },
+			{ "rhs_acc_dtk3", "", 400, 200, "" }
         
 		};
 	};
@@ -431,7 +432,8 @@ class WeaponShops {
 			{ "rhs_weap_g36kv_ag36", "", 7700, 3650, "" },	
 			{ "rhs_weap_m16a4", "", 6500, 3250, "" },	
 			{ "rhs_weap_m16a4_carryhandle", "", 6500, 3250, "" },	
-			{ "rhs_weap_m16a4_carryhandle_m203", "", 7000, 3500, "" }
+			{ "rhs_weap_m16a4_carryhandle_m203", "", 7000, 3500, "" },
+			{ "rhs_weap_ak74mr_grip1", "", 7500, 3850, "" }
 		   };
         mags[] = {
             { "30Rnd_65x39_caseless_green", "", 12, 6, "" },
@@ -506,7 +508,8 @@ class WeaponShops {
 			{ "rhssaf_30rnd_556x45_EPR_G36", "", 10, 5, "" },
 			{ "rhssaf_30rnd_556x45_Tracers_G36", "", 10, 5, "" },
 			{ "rhs_mag_30Rnd_556x45_Mk318_Stanag", "", 10, 5, "" },
-			{ "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "", 10, 5, "" }
+			{ "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "", 10, 5, "" },
+			{ "rhs_30Rnd_545x39_AK", "", 10, 5, "" }
         };
         accs[] = {
 			

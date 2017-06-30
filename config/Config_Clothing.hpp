@@ -704,7 +704,8 @@ class Clothing {
 		{ "B_FieldPack_Base", "", 20, "" },
 		{ "B_Carryall_Base", "", 20, "" },
 		{ "B_OutdoorPack_Base", "", 20, "" },
-		{ "B_BergenC_Base", "", 20, "" }
+		{ "B_BergenC_Base", "", 20, "" },
+		{ "tf_rt1523g_black", "", 20, "" }
 		};
     };
 };

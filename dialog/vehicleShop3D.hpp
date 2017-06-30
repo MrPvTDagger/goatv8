@@ -64,16 +64,6 @@ class Life_Vehicle_Shop_v2_3D {
             h = 0.0219957 * safezoneH;
         };
 
-        class RentCar: Life_RscButtonMenu {
-            idc = -1;
-            text = "$STR_Global_RentVeh";
-            onButtonClick = "[false] spawn life_fnc_vehicleShopBuy;";
-            x = 0.0964687 * safezoneW + safezoneX;
-            y = 0.636393 * safezoneH + safezoneY;
-            w = 0.0721724 * safezoneW;
-            h = 0.0219957 * safezoneH;
-        };
-
         class BuyCar: Life_RscButtonMenu {
             idc = 2309;
             text = "$STR_Global_Buy";

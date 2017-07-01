@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=10461;
+		nextID=10463;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=7031;
+		nextID=7149;
 	};
 	class Camera
 	{
-		pos[]={11324.629,40.18327,16855.514};
-		dir[]={-0.032813422,-0.46805009,0.88310599};
-		up[]={-0.017379807,0.88369548,0.46773827};
-		aside[]={0.99932277,1.1007069e-007,0.037132166};
+		pos[]={8222.1162,224.51573,7870.1313};
+		dir[]={-0.48477072,-0.30064002,-0.82137036};
+		up[]={-0.15281434,0.95373076,-0.2589207};
+		aside[]={-0.86120957,-6.2678009e-007,0.50828594};
 	};
 };
 binarizationWanted=0;
@@ -20041,14 +20041,14 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=29;
+				items=30;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
 						position[]={2309.644,18.522614,18844.344};
-						angles[]={0.24873976,3.3044143,6.1667151};
+						angles[]={0.24874432,3.3044143,6.1667194};
 					};
 					side="West";
 					flags=6;
@@ -20239,13 +20239,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={2308.261,18.665518,18844.418};
-						angles[]={0.24873976,3.1072621,6.1667151};
+						angles[]={0.24874432,3.1072621,6.1667194};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
-						init="call{Niko addRating 10000000000000000000000000000000000;}";
+						init="call{Niko addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Niko";
 						description="Niko";
 						isPlayable=1;
@@ -20408,7 +20408,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2311.0532,18.260643,18844.307};
+						position[]={2311.053,18.26071,18844.307};
 						angles[]={0,3.234514,0};
 					};
 					side="West";
@@ -22721,15 +22721,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2316.0488,18.369459,18836.404};
-						angles[]={0.031988446,4.856564,6.0685434};
+						position[]={2316.0491,18.369427,18836.404};
+						angles[]={0.031991884,4.8565702,6.0685444};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{Shagrix addRating 10000000000000000000000000000000000; enableRadio false;}";
+						init="call{Shagrix addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Shagrix";
 						description="Shagrix";
 						isPlayable=1;
@@ -22911,15 +22911,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2316.5994,18.175888,18838.703};
-						angles[]={0.031988446,4.8554192,6.0685434};
+						position[]={2316.5991,18.175955,18838.703};
+						angles[]={0.031991884,4.8554187,6.0685444};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						skill=0.81009811;
-						init="call{Anton addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;}";
+						init="call{Anton addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Anton";
 						description="D. Anton";
 						isPlayable=1;
@@ -23101,15 +23101,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2316.8706,17.95645,18840.512};
-						angles[]={0,4.3293881,0};
+						position[]={2316.8711,17.956316,18840.512};
+						angles[]={0,4.3293939,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						init="_null = [this, 10, 0.01, 2] execVM ""heal.sqf"";";
+						init="call{Vest1 addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Vest1";
 						description="Vest";
 						isPlayable=1;
@@ -23291,14 +23291,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2316.4697,18.239788,18837.59};
-						angles[]={0.031988446,4.7557893,6.0685434};
+						position[]={2316.47,18.239721,18837.59};
+						angles[]={0.031991884,4.7557955,6.0685444};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
-						init="call{Will addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;}";
+						init="call{Will addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Will";
 						description="Will";
 						isPlayable=1;
@@ -23442,15 +23442,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2316.1711,18.389259,18834.953};
-						angles[]={0.031988446,4.6976752,6.0685434};
+						position[]={2316.1709,18.389292,18834.953};
+						angles[]={0.031991884,4.6976762,6.0685444};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{Bowzer addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;}";
+						init="call{Bowzer addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Bowzer";
 						description="Bowzer";
 						isPlayable=1;
@@ -23632,15 +23632,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2315.9526,18.456383,18833.77};
-						angles[]={6.259192,4.7948465,6.1225805};
+						position[]={2315.9529,18.456333,18833.77};
+						angles[]={6.2591867,4.7948384,6.1225801};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						init="call{Hugo addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;}";
+						init="call{Hugo addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Hugo";
 						description="Hugo";
 						isPlayable=1;
@@ -23803,15 +23803,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2315.9924,18.414425,18832.291};
-						angles[]={6.259192,4.6430631,6.1225805};
+						position[]={2315.9919,18.414497,18832.291};
+						angles[]={6.2591867,4.6430645,6.1225801};
 					};
 					side="West";
 					flags=4;
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="call{Magic addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout; enableRadio false;}";
+						init="call{Magic addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Magic";
 						description="Magic";
 						isPlayable=1;
@@ -23993,14 +23993,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2310.5657,19.427303,18837.863};
-						angles[]={0,3.1223969,0};
+						position[]={2310.5659,19.427254,18837.863};
+						angles[]={0,3.1223938,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{Oli addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout;}";
+						init="call{Oli addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Oli";
 						description="Oli";
 						isPlayable=1;
@@ -24170,7 +24170,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{Kallahan addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout;}";
+						init="call{Kallahan addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="kallahan";
 						description="Kallahan";
 						isPlayable=1;
@@ -24334,13 +24334,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={2309.4231,19.535196,18837.916};
-						angles[]={0,3.1223969,0};
+						angles[]={0,3.1223938,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{Leviathan addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout;}";
+						init="call{Leviathan addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Leviathan";
 						description="Leviathan";
 						isPlayable=1;
@@ -24510,7 +24510,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{Isaac addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout;}";
+						init="call{Isaac addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Isaac";
 						description="Isaac";
 						isPlayable=1;
@@ -24680,7 +24680,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{Griv addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout;}";
+						init="call{Griv addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Griv";
 						description="Griv";
 						isPlayable=1;
@@ -24850,7 +24850,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{Dingo addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout;}";
+						init="call{Dingo addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Dingo";
 						description="Dingo";
 						isPlayable=1;
@@ -25013,14 +25013,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2308.2615,19.566715,18837.971};
-						angles[]={0,3.1223969,0};
+						position[]={2308.261,19.566732,18837.971};
+						angles[]={0,3.1223938,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{Carson addRating 10000000000000000000000000000000000; [this, whitebox] call LT_fnc_lockLoadout;}";
+						init="call{Carson addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
 						name="Carson";
 						description="Carson";
 						isPlayable=1;
@@ -25134,6 +25134,177 @@ class Mission
 										};
 									};
 									value=0.97000003;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Default";
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
+				class Item29
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2312.7529,18.981411,18837.766};
+						angles[]={0.031991884,3.0918682,6.0685444};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						init="call{Poncho addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
+						name="Poncho";
+						description="Poncho";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="TRYK_T_camo_Wood_BG";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="ACE_quikclot";
+										count=5;
+									};
+									class Item1
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item2
+									{
+										name="ACE_packingBandage";
+										count=4;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="tf_microdagr";
+							radio="tf_anprc154_1";
+							gps="ItemGPS";
+						};
+					};
+					id=10462;
+					type="B_Soldier_F";
+					atlOffset=-0.062999725;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isMedic";
+							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"",_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=-1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
 								};
 							};
 						};
@@ -27378,7 +27549,7 @@ class Mission
 					};
 					id=9222;
 					type="Land_Bandage_F";
-					atlOffset=-0.0001373291;
+					atlOffset=0.02204895;
 				};
 				class Item23
 				{
@@ -27396,7 +27567,7 @@ class Mission
 					};
 					id=9223;
 					type="Land_Bandage_F";
-					atlOffset=-0.00022888184;
+					atlOffset=0.02204895;
 				};
 				class Item24
 				{
